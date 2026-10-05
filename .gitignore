@@ -27,17 +27,13 @@ coverage/
 criterion/
 
 # ── Environment files ─────────────────────────────────────────────────────────
-.env
-.env.local
 .env.*.local
-.env.production
 
 # ── Local Stellar / Soroban CLI stores ────────────────────────────────────────
 .soroban/
 .stellar/
 
 # ── Editor / IDE ──────────────────────────────────────────────────────────────
-.vscode/
 .idea/
 *.swp
 *.swo
@@ -96,3 +92,4 @@ benches/results/
 secrets/
 private/
 .deploy-state/
+config.bat
